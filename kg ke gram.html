@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //kg ke gram
+        let kg = 9;
+        let g = 1000*kg;
+        console.log (g+"gram")
+        
+        //jam ke menit
+        let jam = 1;
+        let menit = jam*60;
+        console.log (menit+"menit")
+
+        //jam ke detik
+        let jamkedetik = 1;
+        let detik = jamkedetik*3600;
+        console.log (detik+"detik")
+
+        // tunjangan anak
+        let jabatan = "Sekretaris";
+        let anak = 1;
+
+        if (jabatan == "CEO"){
+            if (anak == 1){
+                console.log ("Tunjangan anak = 2jt")
+            } else if (anak == 2){
+                console.log ("tunjangan anak = 3jt")
+            } else {
+                console.log ("Tidak ada tunjangan")
+            }
+        } else if (jabatan == "Sekretaris"){
+            if (anak == 1){
+                console.log ("Tunjangan anak = 1jt")
+            } else if (anak == 2){
+                console.log ("tunjangan anak = 1,5jt")
+            }else {
+                console.log ("Tidak ada tunjanagn")
+            }
+        } else {
+            console.log ("Tidak ada tunjangan")
+        }
+    </script>
+</body>
+</html>
